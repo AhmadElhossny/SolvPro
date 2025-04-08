@@ -187,6 +187,12 @@ ul.social-link li {
         padding-right: 40px;
     }
 }
+@media (max-width: 470px) {
+    .header-navigation{
+        display: none;
+    }
+}
+
 .g-0,.gx-0 {
     --bs-gutter-x: 0 !important;
 }
